@@ -7,9 +7,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
 }
 
 .container div {
-  font-size: 5em;
+  font-size: 2.5em;
+}
+
+@media screen and (min-width: 768px) {
+  .container div {
+    font-size: 5em;
+  }
 }
